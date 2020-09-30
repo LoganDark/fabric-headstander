@@ -18,20 +18,12 @@
 	"icon": "assets/headstander/icon.png",
 
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			{
-				"adapter": "kotlin",
-				"value": "net.logandark.headstander.Headstander"
-			}
-		]
-	},
+	"entrypoints": {},
 
 	"mixins": ["headstander.mixins.json"],
 
 	"depends": {
 		"fabricloader": ">=0.8.8",
-		"fabric-language-kotlin": ">=1.3.71+build.1",
 		"minecraft": "1.16.x"
 	},
 	"suggests": {}
